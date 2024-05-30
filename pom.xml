@@ -23,7 +23,7 @@
 
         <!-- Optional URL to server. Default value is http://localhost:9000 -->
             <sonar.host.url>
-              http://http://172.16.107.132:9000/
+              http://172.16.107.132:9000/
             </sonar.host.url>
 
              
