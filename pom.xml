@@ -19,7 +19,14 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        
+
+
+        <!-- Optional URL to server. Default value is http://localhost:9000 -->
+            <sonar.host.url>
+              http://http://172.16.107.132:9000/
+            </sonar.host.url>
+
+             
         <!-- JaCoCo Properties -->
          <jacoco.version>0.8.6</jacoco.version>
          <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
